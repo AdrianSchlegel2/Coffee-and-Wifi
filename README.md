@@ -1,2 +1,5 @@
 # Coffee and Wifi
- A website that can show a table of coffee restaurants with wifi / sockets / coffee tastiness
+ A website that can show a table of coffee restaurants with wifi / sockets / coffee tastiness. Simply run the program and it will automatically host itself over your own pc / server. Once you actually click on the link created by the running of the program, you will be sent to the home page. Once you click on the "Show Me!" button, you will be sent to a Bootstrap (*Frontend-CSS-Framework developed by Twitter*) created table that has a collection of preentered cafes with info like the location, the 
+opening and closing times, the name and the "*stats*" of the restaurant like internet strength, socket availability and coffee taste.
+
+Once on the website, if you enter the URL http://127.0.0.1:5000/add you will reach a website where you can actually enter your own coffee restaurant or new coffee restaurant you tried out. The form where you enter this information was created with **WTF Flask**, a form integration library for flask. This information is saved to a .csv file, so that the information is not lost and still available the next time you run the app.
